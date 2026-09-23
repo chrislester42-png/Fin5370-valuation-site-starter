@@ -60,12 +60,21 @@ window.CONTENT = {
     buyBelow: null, avoidAbove: null
   },
 
+  risks: {
+    status: "coming", module: 6, title: "Risks",
+    headline: "", lede: "",
+    risks: [],              // { risk: "twelve words or fewer", fact: { value: "", label: "", source: "", tier: "" }, ourResponse: "twenty words or fewer" }
+    discountRateNote: "",   // one line on how risk shows up in the discount rate
+    soWhat: ""
+  },
+
   catalysts: {
-    status: "coming", module: 6, title: "Risks and Catalysts",
+    status: "coming", module: 6, title: "Catalysts",
     headline: "", lede: "",
     reflection: "",         // the real options reflection, trimmed to eighty words
+    catalysts: [],          // { event: "", when: "", whyItMatters: "", wouldChangeOurView: "", source: "" }
     tripwires: [],          // { condition: "", why: "", whatWeWouldDo: "" }
-    earningsScorecard: null // optional; only if the company reports before Module 8
+    earningsScorecard: null // optional, for fun; only if the company reports before Module 8
   },
 
   process: {

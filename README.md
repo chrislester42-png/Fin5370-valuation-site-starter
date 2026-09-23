@@ -24,7 +24,7 @@ This folder is your team's project for FIN 5370. It holds your research, your wo
 
 ## The site's sections, in order
 
-On the main page: Thesis (Module 1) · Financials (Module 2) · Valuation (Module 4) · The Call (Module 5) · Risks and Catalysts (Module 6) · Process (Module 7). Its own page: Knowledge Bank (Module 3), the sourced inputs and the research notes behind every number. Tearsheet, Glossary, and Sources pages (Module 8).
+On the main page: Thesis (Module 1) · Financials (Module 2) · Valuation (Module 4) · The Call (Module 5) · Risks and Catalysts, two sections (Module 6) · Process (Module 7). Its own page: Knowledge Bank (Module 3), the sourced inputs and the research notes behind every number. Tearsheet, Glossary, and Sources pages (Module 8).
 
 ## Publishing
 
