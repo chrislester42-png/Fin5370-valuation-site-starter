@@ -3,7 +3,7 @@
 Copy, fill the [BLANKS], paste into the Code tab.
 
 ## Project kickoff (first thing you type, once)
-I am an MBA student in FIN 5370, Advanced Corporate Finance and Valuation, at Texas State. My teammate [NAME] and I are valuing [COMPANY] ([TICKER]) over eight weeks and publishing the result as an interactive valuation site, one section per module: Thesis, Financials, Knowledge Bank, Valuation, The Call, Scorecard, Process, then Tearsheet, Glossary, and Sources pages. The purpose of the class is to build a defensible valuation from the fundamentals and to use AI to speed the work up without replacing our judgment, so every number on the site must trace to a source and we log every task you help with.
+I am an MBA student in FIN 5370, Advanced Corporate Finance and Valuation, at Texas State. My teammate [NAME] and I are valuing [COMPANY] ([TICKER]) over eight weeks and publishing the result as an interactive valuation site, one section per module: Thesis, Financials, Knowledge Bank, Valuation, The Call, Catalysts, Process, then Tearsheet, Glossary, and Sources pages. The purpose of the class is to build a defensible valuation from the fundamentals and to use AI to speed the work up without replacing our judgment, so every number on the site must trace to a source and we log every task you help with.
 
 This folder is our project. Read CLAUDE.md and README.md, then explain this project and its rules back to me in under 200 words. Replace [COMPANY] and [TICKER] in CLAUDE.md and site/content.js with our company. Do not change anything else yet. I am new to this tool, so explain what you are doing as you go.
 

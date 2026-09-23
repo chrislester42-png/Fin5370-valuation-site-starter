@@ -59,8 +59,8 @@ window.CONTENT = {
     buyBelow: null, avoidAbove: null
   },
 
-  scorecard: {
-    status: "coming", module: 6, title: "Scorecard",
+  catalysts: {
+    status: "coming", module: 6, title: "Catalysts",
     headline: "", lede: "",
     reflection: "",         // the real options reflection, trimmed to eighty words
     tripwires: [],          // { condition: "", why: "", whatWeWouldDo: "" }

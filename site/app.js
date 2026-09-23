@@ -87,7 +87,7 @@
   }
   window.sections = window.sections || {};
   const order = [["thesis", "thesis"], ["financials", "financials"], ["vault", "vault"], ["valuation", "valuation"],
-                 ["the-call", "theCall"], ["scorecard", "scorecard"], ["process", "process"]];
+                 ["the-call", "theCall"], ["catalysts", "catalysts"], ["process", "process"]];
   order.forEach(([id, key]) => renderSection(id, key));
 
   // ---------- nav highlight ----------

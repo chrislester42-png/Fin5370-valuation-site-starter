@@ -24,7 +24,7 @@ This folder is your team's project for FIN 5370. It holds your research, your wo
 
 ## The site's sections, in order
 
-Thesis (Module 1) · Financials (Module 2) · Knowledge Bank (Module 3) · Valuation (Module 4) · The Call (Module 5) · Scorecard (Module 6) · Process (Module 7) · Tearsheet, Glossary, and Sources pages (Module 8)
+Thesis (Module 1) · Financials (Module 2) · Knowledge Bank (Module 3) · Valuation (Module 4) · The Call (Module 5) · Catalysts (Module 6) · Process (Module 7) · Tearsheet, Glossary, and Sources pages (Module 8)
 
 ## Publishing
 
