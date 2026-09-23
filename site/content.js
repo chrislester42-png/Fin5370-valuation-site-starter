@@ -38,11 +38,12 @@ window.CONTENT = {
     driverJustifications: [] // { driver: "Revenue growth", assumption: "3.0%", because: "", source: "" }
   },
 
-  vault: {
+  vault: {                  // rendered on vault.html, its own page, like the Bloom site's Knowledge Bank
     status: "coming", module: 3, title: "Knowledge Bank",
     headline: "", lede: "",
-    inputs: [],             // { input: "Beta", value: "0.35", tier: "D", formula: "", source: "S4", note: "" }
+    inputs: [],             // cost of capital inputs: { input: "Beta", value: "0.35", tier: "D", formula: "", source: "S4", note: "" }
     soWhat: ""
+    // Module 3 also bakes research/ into data/notes.js and adds the note explorer below the inputs table
   },
 
   valuation: {
@@ -60,7 +61,7 @@ window.CONTENT = {
   },
 
   catalysts: {
-    status: "coming", module: 6, title: "Catalysts",
+    status: "coming", module: 6, title: "Risks and Catalysts",
     headline: "", lede: "",
     reflection: "",         // the real options reflection, trimmed to eighty words
     tripwires: [],          // { condition: "", why: "", whatWeWouldDo: "" }

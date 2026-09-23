@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sources</title>
+  <title>Knowledge Bank</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,9 +23,8 @@
     </nav>
   </header>
   <main class="page">
-    <p class="section-label">Sources · Module 8</p>
-    <h1>Sources</h1>
-    <p class="coming">Coming in Module 8: every filing, dataset, and article this valuation rests on. Until then, see research/sources.md in the repo.</p><div id="source-list"></div>
+    <section class="section" id="vault" data-module="3" style="border-top:0"><div class="section-inner" style="padding-top:0"></div></section>
+    <div id="explorer"></div>
   </main>
   <footer class="footer">
     <span data-bind="footerLeft"></span>
@@ -33,6 +32,7 @@
   </footer>
   <script src="data/financials.js"></script>
   <script src="content.js"></script>
+  <!-- Module 3 adds: <script src="data/notes.js"></script> and <script src="vault.js"></script> here, before app.js -->
   <script src="app.js"></script>
 </body>
 </html>
