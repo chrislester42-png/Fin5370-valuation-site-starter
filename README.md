@@ -7,15 +7,14 @@ This folder is your team's project for FIN 5370. It holds your research, your wo
 1. Click **Use this template** on GitHub, name the repo after your company, and add your teammate as a collaborator.
 2. In GitHub Desktop, clone the repo to your computer.
 3. In Claude Desktop, open the **Code** tab and pick the cloned folder.
-4. Paste the kickoff prompt from `PROMPTS.md`.
+4. Open Obsidian, choose Open folder as vault, and pick the `research` folder inside the repo.
+5. Paste the kickoff prompt from `PROMPTS.md` in Claude.
 
 ## What goes where
 
 | Folder or file | What it holds |
 |---|---|
-| `research/memos/` | Your milestone memos, saved as .md, .txt, or .pdf so Claude can read them |
-| `research/sources/` | Notes on the filings, datasets, and articles you cite. Open `research/` as an Obsidian vault if you like that view; it is optional |
-| `research/sources.md` | One row per source. Claude keeps it current |
+| `research/` | Your Obsidian vault: Project Home, one note per source, one note per fact, your memos in 03 Drafts, questions, templates. Claude writes the notes; Obsidian is how you read them. Becomes the Knowledge Bank page in Module 3 |
 | `workbook/` | Your team's Q&D workbook (.xlsx). The site's numbers come from here |
 | `scripts/workbook_to_data.py` | Reads the workbook and writes `site/data/financials.js` |
 | `site/` | The published site. Netlify serves this folder as-is |

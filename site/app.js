@@ -37,7 +37,8 @@
   const factCard = (f) => el("div", { class: "fact" }, [
     el("span", { class: "value" }, [text(f.value), tierChip(f.tier)]),
     el("span", { class: "label" }, [text(f.label)]),
-    f.source ? el("a", { class: "source", href: "sources.html#" + f.source }, [text("Source " + f.source)]) : text("")
+    f.note ? el("a", { class: "source", href: "vault.html#note=" + encodeURIComponent(f.note) }, [text(f.source ? "Source " + f.source : "See the note")])
+           : (f.source ? el("a", { class: "source", href: "sources.html#" + f.source }, [text("Source " + f.source)]) : text(""))
   ]);
   window.ui = { el, text, tierChip, factCard };
 

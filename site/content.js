@@ -1,6 +1,6 @@
 // The words on the site, one object per section. Claude updates one section per module.
-// Every number in a Fact must trace to a memo, the workbook, or a row in research/sources.md.
-// Fact shape: { value: "13.2%", label: "Operating margin, FY2025", source: "S1", tier: "R" | "D" | "E" }
+// Every number in a Fact traces to an atomic note in research/02 Atomic Notes, and through it to a source note.
+// Fact shape: { value: "13.2%", label: "Operating margin, FY2025", source: "S1", tier: "R" | "D" | "E", note: "02 Atomic Notes/FY2025 operating margin 12.3 percent" }
 // A section with status "coming" renders as "Coming in Module N". Set status to "live" when it is built.
 
 window.CONTENT = {
