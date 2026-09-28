@@ -6,7 +6,7 @@ This folder is your team's project for FIN 5370. It holds your research, your wo
 
 1. Click **Use this template** on GitHub, name the repo after your company, and add your teammate as a collaborator.
 2. In GitHub Desktop, clone the repo to your computer.
-3. In Claude Desktop, open the **Code** tab and pick the cloned folder.
+3. In Claude Desktop, Cowork tab, Create a project, click Use a folder and pick the cloned folder. For the description paste: FIN 5370 team valuation site for [Company]. At the start of every chat, read CLAUDE.md in this folder and follow its rules. "Sync the project" and "wrap up the session" are defined there.
 4. Open Obsidian, choose Open folder as vault, and pick the `research` folder inside the repo.
 5. Paste the kickoff prompt from `PROMPTS.md` in Claude.
 
