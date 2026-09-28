@@ -11,10 +11,10 @@ This folder is our project. Read CLAUDE.md and README.md, then explain this proj
 We are in Module [N] of FIN 5370. This module's milestone is [MILESTONE NAME]. Our deliverable is done and saved at [FILE]. Read it, read CLAUDE.md, and tell me what you will build for the [SECTION] section and what you need from me. Do not build anything yet.
 
 ## Sync (start of every session)
-Sync the project.
+Sync the project: run git pull in this project folder, then tell me in plain English what my teammate changed since my last session. If there is a merge conflict, stop and explain it.
 
 ## Wrap up (end of every session)
-Wrap up the session.
+Wrap up the session: follow the wrap-up steps in CLAUDE.md (AI Log rows, converter if the workbook changed, one-line commit, then git push, and tell me honestly whether the push succeeded).
 
 ## Something broke
 [WHAT I SEE]. Here is the error text: [PASTE]. Tell me the most likely cause in plain English, then fix it, and tell me what you changed.

@@ -27,6 +27,6 @@ On the main page: Thesis (Module 1) · Financials (Module 2) · Valuation (Modul
 
 ## Publishing
 
-Netlify deploys from the `site` folder of your GitHub repo. Every push goes live within a minute. Claude does the commit when you say "wrap up," and writes the commit message itself, one line describing the change.
+Netlify deploys from the `site` folder of your GitHub repo. Every push goes live within a minute. Claude does the commit when you paste the wrap-up prompt from PROMPTS.md, and writes the commit message itself, one line describing the change.
 
 **In GitHub Desktop, never type in the Summary box.** That box is for a new commit, and Claude has already made the commit. If Desktop shows "Push origin" with a number in the top bar, click it. If the Summary box is greyed out and the Changes list is empty, that is normal: there is nothing left to commit, only to push.
