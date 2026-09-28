@@ -1,6 +1,6 @@
 # Prompts
 
-Copy, fill the [BLANKS], paste into the Code tab.
+Copy, fill the [BLANKS], paste into your project in the Cowork tab.
 
 ## Project kickoff (first thing you type, once)
 I am an MBA student in FIN 5370, Advanced Corporate Finance and Valuation, at Texas State. My teammate [NAME] and I are valuing [COMPANY] ([TICKER]) over eight weeks and publishing the result as an interactive valuation site, one section per module: Thesis, Financials, Knowledge Bank, Valuation, The Call, Risks, Catalysts, Process, then Tearsheet, Glossary, and Sources pages. The purpose of the class is to build a defensible valuation from the fundamentals and to use AI to speed the work up without replacing our judgment, so every number on the site must trace to a source and we log every task you help with.
