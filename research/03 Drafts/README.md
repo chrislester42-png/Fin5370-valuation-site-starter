@@ -1,1 +1,1 @@
-Milestone memos go here while you write them, saved as .md so Claude can read them. Name them `Milestone 1 - Selection Memo.md`, `Milestone 2 - Driver Justifications.md`, and so on. When a memo is submitted, copy it to 04 Final Deliverables.
+Milestone memos go here: the Word file you submit is fine, named `Milestone 1 - Selection Memo.docx`, `Milestone 2 - Driver Justifications.docx`, and so on. Claude reads it and saves a markdown copy beside it so Obsidian can show it. When a memo is submitted, copy it to 04 Final Deliverables.
