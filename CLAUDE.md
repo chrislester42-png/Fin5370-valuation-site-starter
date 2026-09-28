@@ -34,7 +34,7 @@ Sections not yet built show "Coming in Module N." Touch only the section the cur
 
 ## Git
 - On "sync": run `git pull`, then summarize what changed in plain English. Stop on any conflict and explain it.
-- On "wrap up": add today's rows to `AI Log.md` (show them first), regenerate `site/data/financials.js` if the workbook changed, commit with a one-line message, then run `git push`. Report the push as done only if the command succeeded. If it fails for authentication, say so plainly and tell the user to open GitHub Desktop and click Push origin; never ask for a password or token.
+- On "wrap up": add today's rows to `AI Log.md` (show them first), regenerate `site/data/financials.js` if the workbook changed, commit with a one-line message that describes the change (never an empty or generic message; the user relies on it in GitHub Desktop), then run `git push`. Report the push as done only if the command succeeded. If it fails for authentication, say so plainly and tell the user to open GitHub Desktop and click Push origin; never ask for a password or token.
 - Never force-push. Never delete a branch. Never commit files larger than 20 MB.
 - If a push fails, tell the user to click Push origin in GitHub Desktop. That is normal on a Mac that has not stored a git credential.
 
