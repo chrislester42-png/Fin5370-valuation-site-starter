@@ -17,7 +17,7 @@ File this module's memo into the vault before we build anything. The memo is res
 Sync the project: run git pull in this project folder, then tell me in plain English what my teammate changed since my last session. If there is a merge conflict, stop and explain it.
 
 ## Wrap up (end of every session)
-Wrap up the session: follow the wrap-up steps in CLAUDE.md (AI Log rows, converter if the workbook changed, one-line commit, then git push, and tell me honestly whether the push succeeded).
+Wrap up the session: follow the wrap-up steps in CLAUDE.md (AI Log rows, converter if the workbook changed, vault bake if any note changed, one-line commit, then git push, and tell me honestly whether the push succeeded).
 
 ## Something broke
 [WHAT I SEE]. Here is the error text: [PASTE]. Tell me the most likely cause in plain English, then fix it, and tell me what you changed.
@@ -77,3 +77,21 @@ Build the Financials section. Create site/financials.js that registers window.se
 
 ### The check
 Print year-one FCFF at the base case and show the formula chain with every input, so I can check it against the workbook cell. Then do the same for FCFE. If either does not match the workbook, tell me which formula differs and why.
+
+## Module 3: from the Cost of Capital Memo to the Knowledge Bank
+
+Your WACC calculation tab is filled (Dr. Payne's Module 3 videos) and saved from Excel, and your Cost of Capital Memo is in research/03 Drafts, with a table of the inputs you will publish, each tagged R, D, or E.
+
+### Module 3 kickoff
+We are in Module 3 of FIN 5370. This module's milestone is Project Milestone 3: Cost of Capital Memo. Our WACC calculation tab is filled and the workbook is saved from Excel at workbook/[FILE].xlsx, and our memo is at research/03 Drafts/[MEMO FILE]. Read the memo, CLAUDE.md, and the WACC calculation tab without changing anything. Then tell me: the WACC and every input behind it as the tab shows them, the tier the memo gives each input (Reported, Derived, Estimate), any input on the tab that the memo does not tag, and what you will build for the Knowledge Bank page. Do not build anything yet.
+
+Then run **File the memo into the vault** (top of this file) on the memo. Every input you publish needs an atomic note with its tier before the page can link to it.
+
+### Build the Knowledge Bank
+Build the Knowledge Bank page. First run python3 scripts/workbook_to_data.py and python3 scripts/build_vault.py and tell me in two lines what each found. Then create site/vault.js that registers window.sections.vault(inner, s, F), and add two script tags to site/vault.html in the marked slot before app.js: data/notes.js, then vault.js. In vault.js: 1) a table of the cost of capital inputs from s.inputs: input, value, tier chip, how it was found (the formula for Derived, who decided for Estimate), and a link to its note; 2) one line comparing the WACC in that table with the workbook's WACC tab (F.wacc.wacc) and saying whether they match; 3) a count of the inputs that are Reported, Derived, and Estimate; 4) in the #explorer element below, a note explorer built from window.NOTES: a search box; filters for type (sources, atomic notes, memos), tier (R, D, E), and status; a list of notes showing each one's title, tier chip, and status; and a reader that shows the selected note's text, its source notes, and the notes that link to it, with every link inside a note opening that note. Opening vault.html#note=[note path] must open that note, so the Fact chips elsewhere on the site land on their note. Then update only the vault object in site/content.js: status live; a headline of eight words or fewer; a lede of forty words or fewer stating our WACC and what it is made of; inputs taken from the inputs table in our memo, each with value, tier, how it was found, source id, and note set to the atomic note's path; a so-what of twenty words or fewer. Plain JavaScript, no libraries; use the tier and fact styles already in styles.css. Touch no other section. Then open site/vault.html in my browser.
+
+### Check the Knowledge Bank
+Check the Knowledge Bank page against the workbook and the vault. For every row of the inputs table, show the value on the page beside the value on the WACC calculation tab, the tier, and whether its note exists and links to a source note. Then click through: open three Fact chips on the main page and tell me which note each lands on. List anything that does not match, has no note, or has no source, and tell me how many atomic notes are still needs-verification.
+
+### Make it ours, then check the design pass
+Once the Knowledge Bank is live, three sections exist: run **Make it ours** and then **Check the design pass** (both above).
