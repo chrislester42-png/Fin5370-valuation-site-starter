@@ -73,8 +73,8 @@ window.CONTENT = {
   catalysts: {
     status: "coming", module: 6, title: "Catalysts",
     headline: "", lede: "", facts: [], soWhat: "", numbersWeStillNeed: [],
-    catalysts: [],          // up to six, soonest first: { when: "YYYY-MM-DD" or "Q4 2026", event: "", watch: "", direction: "up" | "down" | "either", source: "", note: "" }
-    tripwires: []           // three: { condition: "", threshold: "", ours: { value: "", label: "" } (our forecast or valuation number, from site data), action: "", note: "" }
+    catalysts: [],          // up to six, soonest first: { when: "YYYY-MM-DD", "Q4 2026", or "Late Oct 2026", expected: true if not yet announced, event: "", watch: "", direction: "up" | "down" | "either", source: "", note: "" }
+    tripwires: []           // three: { condition: "", threshold: "", ours: where our own number lives, read by risks.js from site data, never typed, action: "", note: "" }
   },
 
   process: {
