@@ -77,6 +77,11 @@ window.CONTENT = {
     tripwires: []           // three: { condition: "", threshold: "", ours: where our own number lives, read by risks.js from site data, never typed, action: "", note: "" }
   },
 
+  glossary: {
+    status: "coming", module: 7, title: "Glossary",
+    terms: []               // fifteen to twenty-five: { term: "", definition: "twenty-five words or fewer", section: "the section id where it is used, e.g. valuation" }
+  },
+
   process: {
     status: "coming", module: 7, title: "Process",
     headline: "", lede: "", facts: [], soWhat: "", numbersWeStillNeed: [],
